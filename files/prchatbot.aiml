@@ -22,25 +22,29 @@
       <template>Tenemos milanesa de pollo y enchiladas verdes , le gustaria continuar con las sopas?</template>
   </category>
   <category>
-      <pattern>* PALITOS DE APIO *</pattern>
+      <pattern>* MILANESA DE POLLO *</pattern>
       <template>En un momento se lo traigo, desea algo mas?</template>
   </category>
   <category>
-      <pattern>* ENSALADA *</pattern>
+      <pattern>* ENCHILADAS VERDES *</pattern>
       <template>En un momento se lo traigo, desea algo mas?</template>
   </category>
   
   <category>
-      <pattern>SI</pattern>
+      <pattern>SI *</pattern>
         <template>Le gustaria una sopa?</template>
   </category>
   <category>
-      <pattern>NO</pattern>
+      <pattern>NO *</pattern>
       <template>Ok! Cualquier cosa que necesite escriba</template>
   </category>
   
   <category>
-      <pattern>SI</pattern>
+      <pattern>* SI</pattern>
+      <template>¿Quieres sopa del día o consome?</template>
+  </category>
+  <category>
+      <pattern>* SOPA</pattern>
       <template>¿Quieres sopa del día o consome?</template>
   </category>
   <category>
@@ -66,7 +70,7 @@
       <template>Tenemos fresas con crema y pay de limon, le gustaria alguno?</template>
   </category>
   <category>
-      <pattern>No</pattern>
+      <pattern>* No</pattern>
       <template>Ok! en un momento le traigo su cuenta</template>
   </category>
   
