@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>HOLA</pattern>
+      <template>
+          <random>
+              <li>Bienvenido, quieres saber cuales son las entradas o vamos a las sopas?</li>
+              <li>Buen día, toma entrada o empieza con las sopas?</li>
+              <li>Sea bienvenid@, le digo las entradas o pasamos a las sopas?</li>
+              <li>Muy día, quiere saber las entradas o elige sopa de una vez</li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern>*ENTRADAS</pattern>
+      <template>
+          <srai>ENTRADAS</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>ENTRADAS</pattern>
+      <template>Tenemos milanesa de pollo y enchiladas verdes , le gustaria continuar con las sopas?</template>
+  </category>
+  <category>
+      <pattern>* PALITOS DE APIO *</pattern>
+      <template>En un momento se lo traigo, desea algo mas?</template>
+  </category>
+  <category>
+      <pattern>* ENSALADA *</pattern>
+      <template>En un momento se lo traigo, desea algo mas?</template>
+  </category>
+  
+  <category>
+      <pattern>SI</pattern>
+        <template>Le gustaria una sopa?</template>
+  </category>
+  <category>
+      <pattern>NO</pattern>
+      <template>Ok! Cualquier cosa que necesite escriba</template>
+  </category>
+  
+  <category>
+      <pattern>SI</pattern>
+      <template>¿Quieres sopa del día o consome?</template>
+  </category>
+  <category>
+      <pattern>* SOPA DEL DIA *</pattern>
+      <template>Muy buena opcion, te gustaria tibia o caliente?</template>
+  </category>
+  <category>
+      <pattern>* CONSOME *</pattern>
+      <template>Muy buena opcion, te gustaria tibia o calinete?</template>
+  </category>
+  
+  <category>
+      <pattern>TIBIA *</pattern>
+      <template>De acuerdo, permite un momentose lo traigo</template>
+  </category>
+  <category>
+      <pattern>CALIENTE *</pattern>
+      <template>De acuerdo, permite un momento se lo traigo</template>
+  </category>
+  
+  <category>
+      <pattern>* POSTRE</pattern>
+      <template>Tenemos fresas con crema y pay de limon, le gustaria alguno?</template>
+  </category>
+  <category>
+      <pattern>No</pattern>
+      <template>Ok! en un momento le traigo su cuenta</template>
+  </category>
+  
+  <category>
+      <pattern>* FRESAS CON CREMA *</pattern>
+      <template>Okey en un moento se lo traigo, le gustaria la cuenta?</template>
+  </category>
+  
+  <category>
+      <pattern>SI</pattern>
+      <template>Ok! en un momento le traigo su cuenta</template>
+  </category>
+</aiml>
